@@ -18,7 +18,7 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(actual, expected, 'Expected Square class to be a distinct class from the Rectangle class.')
 
     def test_square_is_square_and_rectangle(self):
-        actual = isinstance(self.sq, shape_calculator.Square) and isinstance(self.sq, shape_calculator.Square)
+        actual = isinstance(self.sq, shape_calculator.Square) and isinstance(self.sq, shape_calculator.Rectangle)
         expected = True
         self.assertEqual(actual, expected, 'Expected square object to be an instance of the Square class and the Rectangle class.')
 
