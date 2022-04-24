@@ -3,6 +3,7 @@ import shape_calculator
 
 
 class UnitTests(unittest.TestCase):
+    maxDiff=None
     def setUp(self):
         self.rect = shape_calculator.Rectangle(3, 6)
         self.sq = shape_calculator.Square(5)
